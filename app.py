@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from data_analyzer import DataAnalyzer
+
 
 
 st.title("Módulo 2: Carga del dataset")
