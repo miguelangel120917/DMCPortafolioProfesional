@@ -9,7 +9,7 @@ import seaborn as sns
 modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset"])
 
 if modulo == "Home":
-    else:
+else:
 
     
     st.title("Módulo 2: Carga del dataset")
