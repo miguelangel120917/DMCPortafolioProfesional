@@ -9,6 +9,7 @@ import seaborn as sns
 modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset"])
 
 if modulo == "Home":
+    st.write("Bienvenido la sesión 1")
 else:
 
     
