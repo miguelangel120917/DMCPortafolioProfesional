@@ -10,6 +10,22 @@ modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset
 
 if modulo == "Home":
     st.write("Bienvenido la sesión 1")
+    st.title ('Proyecto N°1 de la Especialización de Python')
+    st.title ('Proyecto N°1 de la Especialización de Python')
+    st.subheader("_Streamlit_ is :blue[cool] :sunglasses:")
+    st.markdown(
+    '''
+    Estudiante: Miguel Angel Limaquispe Huaman
+    
+    Modulo 1: Pyhton Fundamentals
+    
+    Información General: Ingeniero de Sistemas con experiencia en Bussines Intelligence en Sectores de Banca, Telecomunicaciones, Consumo Masivo y Farmaceútico.
+    
+    Año: 34 años
+    
+    Descripción: Proyecto enfocado en el desarrollo de una Aplicación con Streamlit
+    '''
+    )
 else:
 
     
