@@ -25,4 +25,4 @@ try:
             help="Descarga este archivo y luego súbelo en el recuadro de abajo."
         )
 except FileNotFoundError:
-    st.error("⚠️ Error técnico: Asegúrate de renombrar tu archivo como 'mi_datase
+    st.error("⚠️ Error técnico: Asegúrate de renombrar tu archivo como 'mi_dataset.csv' en tu repositorio de GitHub.")
