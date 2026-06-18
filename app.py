@@ -7,8 +7,8 @@ import seaborn as sns
 # ----------------------------------------------------------------------
 # ESTADO DE SESIÓN
 # ----------------------------------------------------------------------
-#if "df" not in st.session_state:
-    #st.session_state.df = None
+if "df" not in st.session_state:
+    st.session_state.df = None
 
 
 # ========================================================================
