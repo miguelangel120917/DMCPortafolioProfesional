@@ -136,7 +136,7 @@ else:
                 st.subheader("Mapeo de Tipos de Datos nativos")
                 st.dataframe(datos.dtypes.astype(str).to_frame(name="Tipo de Dato"))
                 st.subheader("Conteo de valores Nulos")
-                st.dataframe(datos.isnull().sum())
+                st.dataframe(datos.isnull().sum().reset_index(name='Cantidad_Nulos'))
     
             # ------------------------------------------
             # ÍTEM 2: CLASIFICACIÓN DE VARIABLES
