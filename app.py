@@ -7,7 +7,7 @@ import seaborn as sns
 from data_analyzer import DataAnalyzer
 
 
-  st.title("Módulo 2: Carga del dataset")
+st.title("Módulo 2: Carga del dataset")
 
 # =========================================================================
 # SUGERENCIA Y DESCARGA DEL DATASET OFICIAL
