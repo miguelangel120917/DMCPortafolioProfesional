@@ -24,7 +24,7 @@ else:
         # Leemos tu archivo que ya está guardado en tu repositorio de GitHub
         with open("BankMarketing.csv", "rb") as file:
             st.download_button(
-                label="📥 Haz clic aquí para descargar el dataset oficial (.csv)",
+                label="📥 Haz clic aquí para descargar el dataset oficial",
                 data=file,
                 file_name="BankMarketing.csv",
                 mime="text/csv",
