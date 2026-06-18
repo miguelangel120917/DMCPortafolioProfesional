@@ -11,7 +11,6 @@ modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset
 if modulo == "Home":
     st.write("Bienvenido la sesión 1")
     st.title ('Proyecto N°1 de la Especialización de Python')
-    st.title ('Proyecto N°1 de la Especialización de Python')
     st.subheader("_Streamlit_ is :blue[cool] :sunglasses:")
     st.markdown(
     '''
