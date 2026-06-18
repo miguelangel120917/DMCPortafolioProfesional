@@ -9,21 +9,51 @@ import seaborn as sns
 modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset"])
 
 if modulo == "Home":
-    st.title ('Proyecto N°1 de la Especialización de Python')
-    st.subheader("_Streamlit_ is :blue[cool] :sunglasses:")
-    st.markdown(
-    '''
-    Estudiante: Miguel Angel Limaquispe Huaman
-    
-    Modulo 1: Pyhton Fundamentals
-    
-    Información General: Ingeniero de Sistemas con experiencia en Bussines Intelligence en Sectores de Banca, Telecomunicaciones, Consumo Masivo y Farmaceútico.
-    
-    Año: 34 años
-    
-    Descripción: Proyecto enfocado en el desarrollo de una Aplicación con Streamlit
-    '''
+   st.title("🏦 Análisis Exploratorio de Datos: BankMarketing")
+    st.subheader("Caso de Estudio N°1 — Especialización en Python for Analytics")
+
+    st.markdown("---")
+
+    col1, col2 = st.columns([2, 1])
+
+    with col1:
+        st.markdown("### 🎯 Objetivo del análisis")
+        st.write(
+            "Esta aplicación tiene como propósito explorar el dataset de la "
+            "última campaña de marketing de una institución financiera, "
+            "con el fin de identificar relaciones y comportamientos entre "
+            "variables que ayuden a entender la caída en la efectividad "
+            "de la campaña (de 12% a 8% en los últimos 6 meses). "
+            "El enfoque está orientado a la **toma de decisiones**, no a la "
+            "construcción de modelos predictivos."
+        )
+
+        st.markdown("### 📊 Sobre el dataset")
+        st.write(
+            "El dataset **BankMarketing.csv** contiene 21 variables que "
+            "describen características demográficas, financieras y de "
+            "contacto de los clientes contactados durante la campaña, "
+            "junto con la variable objetivo `y`, que indica si el cliente "
+            "aceptó (`yes`) o no (`no`) la oferta."
+        )
+
+    with col2:
+        st.markdown("### 👤 Datos del autor")
+        st.info(
+            f"**Nombre:** {AUTOR['nombre']}\n\n"
+            f"**Curso:** {AUTOR['curso']}\n\n"
+            f"**Año:** {AUTOR['anio']}"
+        )
+
+        st.markdown("### 🛠️ Tecnologías utilizadas")
+        st.write("- Python 3\n- Pandas / NumPy\n- Streamlit\n- Matplotlib / Seaborn")
+
+    st.markdown("---")
+    st.caption(
+        "Usa el menú de la izquierda para cargar el dataset y comenzar "
+        "el análisis exploratorio."
     )
+
 else:
 
     
