@@ -10,7 +10,7 @@ modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset
 
 if modulo == "Home":
     st.title("🏦 Análisis Exploratorio de Datos: BankMarketing")
-    st.subheader("Caso de Estudio N°1 — Especialización en Python for Analytics")
+    
 
     st.markdown("---")
 
