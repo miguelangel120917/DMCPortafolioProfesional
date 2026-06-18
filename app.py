@@ -32,3 +32,4 @@ else:
             )
     except FileNotFoundError:
         st.error("⚠️ Error técnico: Asegúrate de renombrar tu archivo como 'BankMarketing.csv' en tu repositorio de GitHub.")
+    archivo=st.sidebar.file_uploader("Cargue su archivo")
