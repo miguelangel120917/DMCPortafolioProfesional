@@ -15,7 +15,7 @@ if modulo == "Home":
         st.write(
             "Esta aplicación tiene como propósito explorar el dataset de la "
             "última campaña de marketing de una institución financiera, "
-            "con el fin de identificar relaciones y comportamientos entre variables"  
+            "con el fin de identificar relaciones y comportamientos entre variables."  
         )
         st.markdown("### 👤 Datos del autor")
 
