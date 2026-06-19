@@ -6,14 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 st.sidebar.image('Logo.png')
-# modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset"])
-st.sidebar.markdown("### **Seleccione un Módulo**")
-
-# Creamos el selectbox con el label vacío para que no duplique el texto
-modulo = st.sidebar.selectbox(
-    label="", 
-    options=["Home", "Carga de Dataset"]
-)
+modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset"])
 st.sidebar.image('logo_explorar.png')
 if modulo == "Home":
         st.title("🏦 Análisis Exploratorio de Datos: BankMarketing")
