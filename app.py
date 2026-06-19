@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-st.sidebar.image('logo.png')
+st.sidebar.image('Logo.png')
 modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset"])
 
 if modulo == "Home":
