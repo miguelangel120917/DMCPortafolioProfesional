@@ -42,7 +42,7 @@ if modulo == "Home":
 else:
 
     
-    st.title("Módulo 2: Carga del dataset")
+    st.title("Carga del dataset")
     
     # =========================================================================
     # SUGERENCIA Y DESCARGA DEL DATASET OFICIAL
