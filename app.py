@@ -10,6 +10,7 @@ modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset
 
 if modulo == "Home":
         st.title("🏦 Análisis Exploratorio de Datos: BankMarketing")
+        st.divider()
         st.markdown("### 🎯 Objetivo del análisis")
         st.write(
             "Esta aplicación tiene como propósito explorar el dataset de la "
