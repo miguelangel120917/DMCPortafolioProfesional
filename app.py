@@ -9,14 +9,7 @@ import seaborn as sns
 modulo = st.sidebar.selectbox("Seleccione un Módulo", ["Home","Carga de Dataset"])
 
 if modulo == "Home":
-    st.title("🏦 Análisis Exploratorio de Datos: BankMarketing")
-    
-
-    st.markdown("---")
-
-    col1, col2 = st.columns([2, 1])
-
-    with col1:
+        st.title("🏦 Análisis Exploratorio de Datos: BankMarketing")
         st.markdown("### 🎯 Objetivo del análisis")
         st.write(
             "Esta aplicación tiene como propósito explorar el dataset de la "
