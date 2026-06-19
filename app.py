@@ -14,7 +14,7 @@ modulo = st.sidebar.selectbox(
     label="", 
     options=["Home", "Carga de Dataset"]
 )
-
+st.sidebar.image('logo_explorar.png')
 if modulo == "Home":
         st.title("🏦 Análisis Exploratorio de Datos: BankMarketing")
         st.divider()
