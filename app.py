@@ -23,6 +23,12 @@ if modulo == "Home":
             "última campaña de marketing de una institución financiera, "
             "con el fin de identificar relaciones y comportamientos entre variables"  
         )
+        st.markdown("### 👤 Datos del autor")
+        st.write(
+            "Nombre: Miguel Angel Limaquispe Huaman "
+            "Especialización: Especialización en Python for Analytics"
+            "Año: 2026"  
+        )
 
         st.markdown("### 📊 Sobre el dataset")
         st.write(
