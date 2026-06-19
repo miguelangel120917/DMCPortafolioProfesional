@@ -30,7 +30,7 @@ if modulo == "Home":
             "Año: 2026"  
         )
 
-        st.markdown("### 📊 Sobre el dataset")
+        st.markdown("### 📊 Sobre el Dataset")
         st.write(
             "El dataset **BankMarketing.csv** contiene 21 variables que "
             "describen características demográficas, financieras y de "
@@ -39,22 +39,14 @@ if modulo == "Home":
             "aceptó (`yes`) o no (`no`) la oferta."
         )
 
-    with col2:
-        st.markdown("### 👤 Datos del autor")
-        st.info(
-            f"**Nombre:** {AUTOR['nombre']}\n\n"
-            f"**Curso:** {AUTOR['curso']}\n\n"
-            f"**Año:** {AUTOR['anio']}"
-        )
-
         st.markdown("### 🛠️ Tecnologías utilizadas")
         st.write("- Python 3\n- Pandas / NumPy\n- Streamlit\n- Matplotlib / Seaborn")
 
-    st.markdown("---")
-    st.caption(
-        "Usa el menú de la izquierda para cargar el dataset y comenzar "
-        "el análisis exploratorio."
-    )
+        st.markdown("---")
+        st.caption(
+            "Usa el menú de la izquierda para cargar el dataset y comenzar "
+            "el análisis exploratorio."
+        )
 
 else:
 
