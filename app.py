@@ -18,12 +18,9 @@ if modulo == "Home":
             "con el fin de identificar relaciones y comportamientos entre variables"  
         )
         st.markdown("### 👤 Datos del autor")
-        st.write(
-            "Nombre: Miguel Angel Limaquispe Huaman\n\n"
-            "Especialización: Especialización en Python for Analytics\n\n"
-            "Año: 2026"  
-        )
 
+        st.write("- Nombre: Miguel Angel Limaquispe Huaman\n- Especialización: Especialización en Python for Analytics\n- Año: Junio 2026")
+        
         st.markdown("### 📊 Sobre el Dataset")
         st.write(
             "El dataset **BankMarketing.csv** contiene 21 variables que "
