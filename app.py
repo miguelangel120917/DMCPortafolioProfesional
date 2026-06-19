@@ -25,8 +25,8 @@ if modulo == "Home":
         )
         st.markdown("### 👤 Datos del autor")
         st.write(
-            "Nombre: Miguel Angel Limaquispe Huaman "
-            "Especialización: Especialización en Python for Analytics"
+            "Nombre: Miguel Angel Limaquispe Huaman\n\n"
+            "Especialización: Especialización en Python for Analytics\n\n"
             "Año: 2026"  
         )
 
